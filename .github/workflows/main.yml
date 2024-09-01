@@ -1,0 +1,7 @@
+on: push
+jobs:
+  checkjava:
+    runs-on: ubuntu-latest
+    steps:
+      run: java --version
+      run: ping baidu.com
